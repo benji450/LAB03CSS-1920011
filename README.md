@@ -5,3 +5,4 @@ Integrantes:
 -Benjamin Estevez Nicolas
 -Sergio Chang Berrio
 -Jerry Salazar Quiroz
+-Diego Andres Panta Uribe
