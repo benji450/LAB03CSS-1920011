@@ -9,7 +9,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class JUnitTestEjercicio10 {
-
+	
+        //Probar suma con array vacía
 	@Test
     public void testAddWithEmptyList() {
         List<Integer> list = new ArrayList<>();
@@ -17,7 +18,7 @@ class JUnitTestEjercicio10 {
             Operaciones.add(list);
         });
     }
-	
+	//Probar suma con un solo elemento en la array
 	@Test
     public void testAddWithSingleElementList() {
         List<Integer> list = new ArrayList<>();
@@ -25,7 +26,7 @@ class JUnitTestEjercicio10 {
         int result = Operaciones.add(list);
         assertEquals(5, result);
     }
-	
+	//Probar suma de elementos de un array con varios números
 	@Test
     public void testAddWithMultipleElementList() {
         List<Integer> list = new ArrayList<>();
@@ -37,7 +38,7 @@ class JUnitTestEjercicio10 {
         int result = Operaciones.add(list);
         assertEquals(19, result);
     }
-	
+	//Probar suma con un elemento nulo
 	 @Test
 	    public void testAddWithNullElements() {
 	        List<Integer> list = new ArrayList<>();
