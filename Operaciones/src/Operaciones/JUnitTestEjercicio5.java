@@ -18,13 +18,13 @@ class JUnitTestEjercicio5 {
         String result = Operaciones.reverseWord("hola");
         assertEquals("aloh", result);
     }
-	//Con multiples palabras
+	//Con múltiples palabras
 	@Test
     public void testReverseWordWithMultipleWords() {
         String result = Operaciones.reverseWord("hola mundo");
         assertEquals("odnum aloh", result);
     }
-	//Con multiples palabras y espacios
+	//Con múltiples palabras y espacios
 	@Test
     public void testReverseWordWithExtraSpaces() {
         String result = Operaciones.reverseWord("  hola   mundo  ");
